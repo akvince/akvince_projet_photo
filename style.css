@@ -1,0 +1,38 @@
+body {
+background-image: url(back1.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+@font-face {
+    font-family: "steampunk";
+    src: url('steampunk.ttf');
+}
+
+header {
+font-family: "steampunk";
+font-size: 3.2em;
+color: lightgray;
+}
+
+nav {
+
+font-size: 1.5em;
+font-family: "steampunk" sans-serif;
+  }
+
+  ol   {
+    display: inline-block;
+    border-radius: 8px;
+    padding-right: 70px;
+    padding-right: 90px;
+
+  }
+
+  a:link {color: white ;
+  text-decoration: none;
+}
+  a:visited {color: white;}
+  a:hover {color: lightgray;}
+  a:active {color: grey;}
