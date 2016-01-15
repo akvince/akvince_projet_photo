@@ -1,0 +1,48 @@
+/*mise en forme du corps du site */
+
+body {
+  background-color: black;
+  height: 720px;
+  width: 1280px;
+}
+
+/* ajout des font pour le site*/
+
+@font-face {
+  font-family: "steampunk";
+  src: url('steampunk.ttf');
+}
+@font-face {
+  font-family: "cutthecrap";
+  src: url('cutthecrap.ttf');
+}
+
+/* position du header*/
+
+header {
+  font-family: "cutthecrap";
+  font-size: 3.1em;
+  color: lightgray;
+  padding-left: 100px;
+}
+nav {}
+
+/* disposition de la navbar*/
+
+
+
+/* couleur des liens*/
+
+a:link {
+  color: lightgray;
+  text-decoration: none;
+}
+a:visited {
+  color: lightgray;
+}
+a:hover {
+  color: grey;
+}
+a:active {
+  color: grey;
+}
